@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn {
+  @apply py-2 px-4 rounded;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-500;
+}
+
+.card {
+  @apply rounded overflow-hidden shadow-lg;
+}
+
+.btn-red {
+  @apply rounded bg-red-500 text-white;
+}
+
+.btn-red:hover {
+  @apply bg-red-200;
+}
+
+.escritorio {
+  @apply text-white bg-red-900;
+} */
