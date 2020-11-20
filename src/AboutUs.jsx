@@ -4,11 +4,12 @@ import nutricionista from './assets/img/nutricionista.jpg';
 const AboutUs = () => {
     return (
         <section className="text-gray-700 body-font">
-            <div className="rounded-lg h-screen w-screen overflow-hidden">
-                <img alt="content"
-                    className="object-cover object-center h-full w-full"
-                    src="https://dummyimage.com/1200x500"
-                />
+            <div className="container">
+                <div className="rounded-lg h-screen w-screen overflow-hidden">
+                    <div alt="contenido"
+                        className="bg-fixed mBackground-image h-full w-full"
+                    />
+                </div>
             </div>
             <div className="container px-5 py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
