@@ -4,9 +4,7 @@ const Hero = () => {
         <section className="text-gray-700 body-font">
             <div className="container flex">
                 <div className="rounded-lg h-screen w-screen">
-                    <div className="flex content-center bg-fixed mBackground-image h-screen w-screen"
-                        style={{ verticalAlign: 'middle' }}
-                    >
+                    <div className="flex content-center bg-fixed mBackground-image h-screen w-screen">
                         <img className='fade-in ' src={logo} alt='Logo' />
                     </div>
                 </div>
