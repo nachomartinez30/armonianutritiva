@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import  './assets/main.css';
-import  './assets/native.css';
 import App from './App';
 
 

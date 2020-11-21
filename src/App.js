@@ -1,8 +1,15 @@
-import AboutUs from "./AboutUs";
+import { Fragment } from "react";
+import Descripcion from "./Descripcion";
+import Hero from "./Hero";
+import QuienSoy from "./QuienSoy";
 
 const App = () => {
   return (
-    <AboutUs />
+    <div className='bg-base'>
+      <Hero />
+      <Descripcion />
+      <QuienSoy />
+    </div>
   );
 }
 

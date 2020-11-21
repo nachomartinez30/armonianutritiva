@@ -4,8 +4,24 @@ module.exports = {
     // purgeLayersByDefault: true,
   },
   purge: [],
-  theme: {   
-    extend: {},
+  theme: {
+    backgroundColor: theme => ({
+      'rosa': '#D9185F',
+      'amarillo': '#fcc301',
+      'verde': '#43BF0A',
+      'cafe': '#8C7777',
+      'danger': '#e3342f',
+      'base':'#F2EEEB'
+    }),
+    textColor: theme => ({
+      'rosa': '#D9185F',
+      'amarillo': '#fcc301',
+      'verde': '#43BF0A',
+      'cafe': '#8C7777',
+      'danger': '#e3342f',
+      'base':'#F2EEEB'
+    }),
+
   },
   variants: {},
   plugins: [],
