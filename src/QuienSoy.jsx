@@ -18,10 +18,10 @@ const QuienSoy = () => {
                         </div>
                     </div>
                     <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-green-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                        <p className="leading-relaxed text-lg mb-4">
+                        <p className="leading-relaxed text-lg mb-4 text-justify">
                             Soy apasionada de ayudar a la persona a que crea en ella y que mejore su relación con la comida , su imagen corporal y sus hábitos para contribuir a su bienestar.
                             </p>
-                        <p className="leading-relaxed text-lg mb-4">
+                        <p className="leading-relaxed text-lg mb-4 text-justify">
                             En mi experiencia me he dado cuenta de la importancia de ver al paciente desde la parte humanista y un ser integral y que al no nutrir sus áreas de vida se ve reflejada en su manera de comer.
                             </p>
                     </div>

@@ -5,7 +5,7 @@ const Hero = () => {
             <div className="container flex">
                 <div className="rounded-lg h-screen w-screen">
                     <div className="flex content-center bg-fixed mBackground-image h-screen w-screen">
-                        <img className='fade-in ' src={logo} alt='Logo' />
+                        <img className='fade-in pl-4' src={logo} alt='Logo' />
                     </div>
                 </div>
             </div>
