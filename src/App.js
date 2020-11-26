@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Descripcion from "./Descripcion";
 import Hero from "./Hero";
 import QuienSoy from "./QuienSoy";
