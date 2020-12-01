@@ -1,6 +1,7 @@
 import Descripcion from "./Descripcion";
 import Hero from "./Hero";
 import QuienSoy from "./QuienSoy";
+import Servicios from "./Servicios";
 
 const App = () => {
   return (
@@ -8,6 +9,9 @@ const App = () => {
       <Hero />
       <Descripcion />
       <QuienSoy />
+      <Servicios />
+      {/* testimonios */}
+      {/* ubicacion y contacto */}
     </div>
   );
 }
