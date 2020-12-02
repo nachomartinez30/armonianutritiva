@@ -14,12 +14,12 @@ import venta from './assets/img/001-comida.svg'
 const Servicios = () => {
     return (
         <div className='flex'>
-            <div className='py-5 bg-rosa lg:services-container-lg  slide-in-left'>
+            <div className='py-5 slide-in-left'>
                 <section>
-                    <h1 className='text-4xl text-rosa  text-center'>Servicios</h1>
+                    {/* <h1 className='text-4xl text-rosa  text-center'>Servicios</h1> */}
                     {/*Imagen SVG */}
                     <div className='flex flex-wrap '>
-  
+
                         <Servicio
                             icon={citas}
                             tittle={'Citas Online y presenciales'}

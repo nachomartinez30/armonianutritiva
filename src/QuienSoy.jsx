@@ -2,7 +2,7 @@ import nutricionista from './assets/img/nutricionista.jpg';
 
 const QuienSoy = () => {
     return (
-        <div className="container px-5 py-24 mx-auto flex flex-col overflow-hidden">
+        <div className="px-5 py-24 mx-auto flex flex-col overflow-hidden">
             <div className="lg:w-4/6 mx-auto">
                 <div className="flex flex-col sm:flex-row mt-10">
                     <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -11,7 +11,7 @@ const QuienSoy = () => {
                         </div>
                         <div className="flex flex-col items-center text-center justify-center">
                             <h2 className="font-medium title-font mt-4 text-gris text-lg">L.N. Susan Areli Osornio Guzmán</h2>
-                            <div className="w-12 h-1 bg-rosa rounded mt-2 mb-4" />
+                            <div className="w-12 h-1 bg-rosa-DEFAULT rounded mt-2 mb-4" />
                             <p className="text-cafe">
                                 Soy Licenciada en nutrición , especialista en Psiconutrición y Coach en cambio de hábitos.
                                 </p>
