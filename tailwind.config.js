@@ -8,6 +8,7 @@ module.exports = {
     backgroundColor: theme => ({
       'rosa': '#D9185F',
       'amarillo': '#fcc301',
+      'amarillo-titulo': '#FDD44C',
       'verde': '#43BF0A',
       'cafe': '#8C7777',
       'danger': '#e3342f',
@@ -17,6 +18,7 @@ module.exports = {
     textColor: theme => ({
       'rosa': '#D9185F',
       'amarillo': '#fcc301',
+      'amarillo-titulo': '#FDD44C',
       'verde': '#43BF0A',
       'cafe': '#8C7777',
       'danger': '#e3342f',
