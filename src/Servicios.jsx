@@ -22,17 +22,17 @@ const Servicios = () => {
 
                         <Servicio
                             icon={citas}
-                            tittle={'Citas Online y presenciales'}
+                            tittle={'Citas Online y Presenciales'}
                             description='Empieza a mejorar la relación que tienes con tu cuerpo y con la comida . En cualquier lugar de México y America Latina . Servicio de citas On line Presencial Guadalajara, Jalisco México'
                         />
                         <Servicio
                             icon={asesoria}
-                            tittle={'Asesoría nutricional'}
+                            tittle={'Asesoría Nutricional'}
                             description='La mejor manera de cambiar tus hábitos es con una asesoría y continúa educación en nutrición.'
                         />
                         <Servicio
                             icon={coach}
-                            tittle={'Coach nutricional'}
+                            tittle={'Coach Nutricional'}
                             description='Si dejas que nuestros coaches nutricionales te acompañen, conseguirás:
                                 Conocer qué alimentos debes tomar de forma fácil y natural. Comprender el vínculo entre tus kilos y las emociones Aprender a preparar tus propios menús fácilmente y disfrutarás haciéndolo. Mejorar la confianza en ti mismo/a y en tu cuerpo Aumentar tu vitalidad y te sentirás más en forma a medida que te acercas a tu peso ideal.'
                         />
@@ -44,33 +44,33 @@ const Servicios = () => {
                         />
                         <Servicio
                             icon={habitos}
-                            tittle={'Cambio de hábitos'}
+                            tittle={'Cambio de Hábitos'}
                             description='Nuestra alimentación se basa principalmente en conductas que llevamos años realizando, y nos resulta muy complicado cambiar estos comportamientos debido a que se han convertido en nuestros hábitos.
                             ¡Pero conseguir cambiar tus hábitos alimenticios para alcanzar unos más saludables es posible! En Armonía Nutritiva te ayudamos a lograrlo.'
                         />
                         <Servicio
                             icon={antropometria}
-                            tittle={'Antropometría certificada'}
+                            tittle={'Antropometría Certificada'}
                             description='Mediciones del cuerpo para conocer el porcentaje exacto de grasa de tu cuerpo y el porcentaje de masa muscular.'
                         />
                         <Servicio
                             icon={floral}
-                            tittle={'Terapia floral'}
+                            tittle={'Terapia Floral'}
                             description='Las Terapias Florales te ayudan a armonizar tus emociones para equilibrarte física y emocionalmente.'
                         />
                         <Servicio
                             icon={emocional}
-                            tittle={'Nutricion emocional'}
+                            tittle={'Nutricion Emocional'}
                             description='Nuestras emociones juegan un papel importante y se reflejan en la manera que comemos y los alimentos que elegimos . Aprende a manejarlas y reconcíliate con la comida.'
                         />
                         <Servicio
                             icon={plan}
-                            tittle={'Plan de alimentación personalizado'}
+                            tittle={'Plan de Alimentación Personalizado'}
                             description='La cantidad y calidad de alimentos es diferente para cada uno de nosotros. Nuestros planes de alimentación son personalizados de acuerdo a los gustos, preferencias , cultura , edad, actividades, ejercicio etc . Todos los organismos son diferentes.'
                         />
                         <Servicio
                             icon={venta}
-                            tittle={'Venta de productos saludables'}
+                            tittle={'Venta de Productos Saludables'}
                             description='Tienda en nuestra clínica nutricional.'
                         />
                     </div>
