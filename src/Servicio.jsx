@@ -4,7 +4,7 @@ const Servicio = ({ tittle, description, icon }) => {
     const [animacion, setAnimacion] = useState(false)
     const [showDescription, setShowDescription] = useState(false)
 
-    const handleClick = ev => {
+    const handleOver = ev => {
         ev.preventDefault();
         setAnimacion(true)
         setShowDescription(true)
@@ -17,7 +17,7 @@ const Servicio = ({ tittle, description, icon }) => {
 
     return (
         <div className={`xl:w-1/3 md:w-1/2 w-full p-4 ${animacion ? 'slide-fwd-center' : null}`}
-            onClick={handleClick}
+            onMouseOver={handleOver}
             onMouseLeave={handleMouseLeave}
         >
             <div className="flex services_shadows bg-cafe-ligth p-6 rounded-lg">
