@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 const Servicio = ({ tittle, description, icon }) => {
 
     const [animacion, setAnimacion] = useState(false)
@@ -21,10 +21,13 @@ const Servicio = ({ tittle, description, icon }) => {
             onMouseLeave={handleMouseLeave}
         >
             <div className="flex services_shadows bg-cafe-ligth p-6 rounded-lg">
-                <h2 className="text-3xl text-cafe-dark font-bold  script-font mt-4">{tittle}</h2>
-                <div className="w-16 h-16  items-center justify-center flex-col-reverse rounded-full mb-4 mx-5">
-                    <img alt='' src={icon} />
-                </div>
+                {(!showDescription) &&
+                    <Fragment><h2 className="text-3xl text-cafe-dark font-bold  script-font mt-4">{tittle}</h2>
+                        <div className="w-16 h-16  items-center justify-center flex-col-reverse rounded-full mb-4 mx-5">
+                            <img alt='' src={icon} />
+                        </div>
+                    </Fragment>
+                }
                 {
                     (showDescription) &&
                     <p className="leading-relaxed text-base fade-in">
