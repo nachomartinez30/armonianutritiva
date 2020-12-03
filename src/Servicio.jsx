@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./assets/styles.css";
 const Servicio = ({ tittle, description, icon }) => {
 
     const [animacion, setAnimacion] = useState(false)
@@ -21,11 +20,11 @@ const Servicio = ({ tittle, description, icon }) => {
             onClick={handleClick}
             onMouseLeave={handleMouseLeave}
         >
-            <div className="services_shadows bg-cafe-ligth p-6 rounded-lg">
-                <div className="w-10 h-10 inline-flex items-center justify-center rounded-full text-amarillo-light mb-4">
+            <div className="flex services_shadows bg-cafe-ligth p-6 rounded-lg">
+                <h2 className="text-3xl text-cafe-dark font-bold  script-font mt-4">{tittle}</h2>
+                <div className="w-16 h-16  items-center justify-center flex-col-reverse rounded-full mb-4 mx-5">
                     <img alt='' src={icon} />
                 </div>
-                <h2 className="text-3xl text-cafe-dark font-bold hello-font mb-2">{tittle}</h2>
                 {
                     (showDescription) &&
                     <p className="leading-relaxed text-base fade-in">

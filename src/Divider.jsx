@@ -1,4 +1,3 @@
-import './assets/styles.css'
 const Divider = () => {
     return (
         <div className="custom-shape-divider-top-1606848837 fade-in">

@@ -1,4 +1,3 @@
-import './assets/styles.css'
 import Servicio from "./Servicio";
 import citas from './assets/img/007-dieta.svg'
 import asesoria from './assets/img/001-comida.svg'
@@ -16,13 +15,15 @@ const Servicios = () => {
         <div className='flex'>
             <div className='py-5 slide-in-left'>
                 <section>
-                    {/* <h1 className='text-4xl text-rosa  text-center'>Servicios</h1> */}
+                    <h1 className='text-8xl font-bold text-rosa-DEFAULT script-font text-center py-10'>
+                    Servicios
+                    </h1>
                     {/*Imagen SVG */}
                     <div className='flex flex-wrap '>
 
                         <Servicio
                             icon={citas}
-                            tittle={'Citas Online y Presenciales'}
+                            tittle={'Cita Online y Presencial'}
                             description='Empieza a mejorar la relación que tienes con tu cuerpo y con la comida . En cualquier lugar de México y America Latina . Servicio de citas On line Presencial Guadalajara, Jalisco México'
                         />
                         <Servicio
@@ -60,7 +61,7 @@ const Servicios = () => {
                         />
                         <Servicio
                             icon={emocional}
-                            tittle={'Nutricion Emocional'}
+                            tittle={'Nutrición Emocional'}
                             description='Nuestras emociones juegan un papel importante y se reflejan en la manera que comemos y los alimentos que elegimos . Aprende a manejarlas y reconcíliate con la comida.'
                         />
                         <Servicio
