@@ -12,6 +12,9 @@ const App = () => {
       <Descripcion />
       <QuienSoy />
       <Servicios />
+      {/* multimedia publicaciones intsa, ebook, videos, blog */}
+      {/* multimedia publicaciones intsa, ebook, videos, blog */}
+      {/* testimonios */}
       {/* testimonios */}
       {/* ubicacion y contacto */}
     </div>

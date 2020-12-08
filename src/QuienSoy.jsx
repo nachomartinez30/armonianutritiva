@@ -13,21 +13,24 @@ const QuienSoy = () => {
                         </div>
 
                         <div className="flex flex-col items-center text-center justify-center">
-                            <h2 className="mt-4 text-cafe-dark font-bold script-font text-2xl"><p>Nutrióloga</p> Susan Areli Osornio Guzmán</h2>
+                            <h2 className="mt-4 text-rosa-dark font-bold script-font text-3xl"><p>Nutrióloga</p> Susan Areli Osornio Guzmán</h2>
                             <div className="w-12 h-1 bg-rosa-DEFAULT uppercase rounded mt-2 mb-4" />
-                            <p className="text-cafe-DEFAULT">
-                                Licenciada en Nutrición, Máster en Bioenergia y Desarrollo Humano, Especialista en Psiconutrición y Coach Integral en Cambio de Hábitos.
+                            <div className="text-cafe-dark text-xl">
+                                <p>Licenciada en Nutrición, </p>
+                                <p>Máster en Bioenergia y Desarrollo Humano, Especialista en Psiconutrición</p>
+                                <p>y Coach Integral en Cambio de Hábitos.
                                 </p>
+                            </div>
                         </div>
                     </div>
                     <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-green-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                        <p className="leading-relaxed text-lg mb-4 just">
-                            <span className='script-font text-5xl'>Soy </span> apasionada de ayudar a la persona a que crea en ella y que mejore su relación con la comida , su imagen corporal y sus hábitos para contribuir a su bienestar.
+                        <p className="leading-relaxed text-2xl mb-4 text-cafe-dark text-justify">
+                            <span className='script-font text-6xl'>Soy </span> apasionada de ayudar a la persona a que crea en ella y que mejore su relación con la comida , su imagen corporal y sus hábitos para contribuir a su bienestar.
                             </p>
-                        <p className="leading-relaxed text-lg mb-4 text-justify">
+                        <p className="leading-relaxed text-2xl mb-4 text-justify text-cafe-dark">
                             En mi experiencia me he dado cuenta de la importancia de ver al paciente desde la parte humanista y un ser integral y que al no nutrir sus áreas de vida se ve reflejada en su manera de comer.
                         </p>
-                        <p className="leading-relaxed text-lg mb-4 text-justify">
+                        <p className="leading-relaxed text-2xl mb-4 text-justify text-cafe-dark">
                             Será un placer poder ser tu coach en esta etapa de tu vida creando mejores hábitos que te beneficien para así tener una mejor trascendencia y evolución con tu ser, con la alimentación y contigo mismo.
                         </p>
                     </div>
