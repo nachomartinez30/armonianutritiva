@@ -1,5 +1,4 @@
 import Carrousel from "./Carrousel";
-import Testimonios from "./Testimonios";
 import Descripcion from "./Descripcion";
 import Divider from "./Divider";
 import Hero from "./Hero";
