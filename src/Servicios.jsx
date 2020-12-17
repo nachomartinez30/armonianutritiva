@@ -9,7 +9,6 @@ import floral from './assets/img/006-lotus-flower.svg'
 import emocional from './assets/img/008-medios-de-comunicacion-social.svg'
 import plan from './assets/img/009-vitaminas.svg'
 import venta from './assets/img/001-comida.svg'
-import { useEffect } from "react";
 
 
 const Servicios = () => {
