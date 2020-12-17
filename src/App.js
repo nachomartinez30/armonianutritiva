@@ -42,7 +42,7 @@ const Principal = () =>
     <QuienSoy />
     <Servicios />
     <Carrousel />
-    <Testimonios />
+    {/* <Testimonios /> */}
   </Fragment>
 
 export default App;
