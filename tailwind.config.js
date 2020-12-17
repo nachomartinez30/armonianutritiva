@@ -40,12 +40,6 @@ module.exports = {
       '7xl': '5rem',
       '8xl': '6rem',
     },
-    screens: {
-      'sm': '375px',
-      'md': '640px',
-      'lg': '1024px',
-      'xl': '1280px',
-    }
   },
   variants: {},
   plugins: [],

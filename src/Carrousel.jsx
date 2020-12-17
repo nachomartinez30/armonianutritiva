@@ -20,7 +20,7 @@ const Carrousel = () => {
 
 const Card = ({ imgPath, title, category, descr, route }) => <div className="p-4 lg:w-1/3">
     <div className="h-full border-2 shadow-lg border-gray-200 rounded-lg bg-cafe-ligth overflow-hidden">
-        <img className="lg:h-48 md:h-36 w-full object-cover object-center"
+        <img className="lg:h-48 md:h-56 w-full object-cover object-center"
             src={imgPath} alt="blog"
         />
         <div className="p-6">

@@ -14,9 +14,9 @@ const Navidad2020 = () => {
             </h1>
 
             {/* Contenido */}
-            <div className='flex flex-wrap space-x-5 space-y-8 justify-center slide-in-right  pt-8 md:px-20 xl:px-56 sm:px-10'>
+            <div className='flex flex-wrap space-x-5 space-y-8 justify-center slide-in-right  pt-8 md:px-20 xl:px-56 px-10'>
                 <div className='space-y-5'>
-                    <div className='flex md:flex-wrap sm:flex-wrap lg:flex-no-wrap  md:justify-center lg:space-x-4'>
+                    <div className='flex flex-wrap md:flex-wrap sm:flex-wrap lg:flex-no-wrap  justify-center lg:space-x-4'>
                         {/* Imagen */}
                         <div className='flex items-center'>
                             <img className='shadow-2xl fade-in' src={image} alt='hábitos' />
