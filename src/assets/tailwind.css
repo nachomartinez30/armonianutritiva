@@ -2,24 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.fade-in {
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1.5s;
-}
-
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .mBackground-image {
   background-image: url(img/hero_backgroud.png);
   background-repeat: no-repeat;
@@ -46,9 +28,7 @@
   border-bottom-right-radius: 50% 10%;
 }
 
-.slide-in-left {
-  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
+
 
 /* DIVIDER */
 .custom-shape-divider-top-1606848837 {
@@ -69,12 +49,28 @@
 }
 
 .custom-shape-divider-top-1606848837 .shape-fill {
-  fill: #590A27;
+  fill: #590a27;
 }
 
-/* ANIMATION */
+
+@font-face {
+  font-family: Script-font;
+  src: url(./fonts/Craftylover.ttf);
+}
+
+.script-font {
+  font-family: "Script-font";
+}
+ANIMATION
 .slide-in-top {
   animation: slide-in-top 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.slide-in-left {
+  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.slide-in-right {
+  animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .kenburns-top {
@@ -88,6 +84,15 @@
   animation: pulsate-fwd 1.5s ease-in-out infinite both;
 }
 
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.5s;
+}
+
+
 /* KEYFRAMES */
 @keyframes kenburns-top {
   0% {
@@ -97,6 +102,15 @@
   100% {
     transform: scale(1.25) translateY(-15px);
     transform-origin: top;
+  }
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -114,6 +128,17 @@
 @keyframes slide-in-left {
   0% {
     transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
     opacity: 0;
   }
   100% {
@@ -142,16 +167,3 @@
     transform: scale(1.1);
   }
 }
-
-
-@font-face {
-  font-family: Script-font;
-  src: url(./fonts/Craftylover.ttf);
-}
-
-.script-font {
-  font-family: "Script-font";
-}
-
-
-

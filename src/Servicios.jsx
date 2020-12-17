@@ -9,17 +9,25 @@ import floral from './assets/img/006-lotus-flower.svg'
 import emocional from './assets/img/008-medios-de-comunicacion-social.svg'
 import plan from './assets/img/009-vitaminas.svg'
 import venta from './assets/img/001-comida.svg'
+import { useEffect } from "react";
+
 
 const Servicios = () => {
+
+    
+
     return (
-        <div className='flex'>
-            <div className='py-5 slide-in-left'>
+        <div className='flex'
+            data-aos="fade-right"
+            data-aos-duration="2000"
+        >
+            <div className='py-1' >
                 <section>
                     <h1 className='text-8xl font-bold text-rosa-DEFAULT script-font text-center py-10'>
                         Servicios
                     </h1>
                     {/*Imagen SVG */}
-                    <div className='flex flex-wrap '>
+                    <div className='flex flex-wrap justify-items-center'>
 
                         <Servicio
                             key='citas'

@@ -1,24 +1,46 @@
+import Carrousel from "./Carrousel";
+import Testimonios from "./Testimonios";
 import Descripcion from "./Descripcion";
 import Divider from "./Divider";
 import Hero from "./Hero";
 import QuienSoy from "./QuienSoy";
 import Servicios from "./Servicios";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Fragment, useEffect } from "react";
+import Navidad2020 from "./posts/Navidad2020";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const App = () => {
+
+  useEffect(() => {
+    AOS.init()
+  }, [''])
+
   return (
     <div className='bg-base'>
-      <Divider />
-      <Hero />
-      <Descripcion />
-      <QuienSoy />
-      <Servicios />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Principal} />
+          <Route exact path="/navidad2020" component={Navidad2020} />
+        </Switch>
+      </Router>
       {/* multimedia publicaciones intsa, ebook, videos, blog */}
-      {/* multimedia publicaciones intsa, ebook, videos, blog */}
-      {/* testimonios */}
-      {/* testimonios */}
+
       {/* ubicacion y contacto */}
     </div>
   );
 }
+
+const Principal = () =>
+  <Fragment>
+    <Divider />
+    <Hero />
+    <Descripcion />
+    <QuienSoy />
+    <Servicios />
+    <Carrousel />
+    <Testimonios />
+  </Fragment>
 
 export default App;
