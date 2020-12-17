@@ -6,16 +6,18 @@ import Hero from "./Hero";
 import QuienSoy from "./QuienSoy";
 import Servicios from "./Servicios";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useState } from "react";
 import Navidad2020 from "./posts/Navidad2020";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const App = () => {
+  const [inicio, setInicio] = useState(false);
 
   useEffect(() => {
     AOS.init()
-  }, [''])
+    setInicio(true);
+  }, [inicio])
 
   return (
     <div className='bg-base'>
