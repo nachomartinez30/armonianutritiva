@@ -7,7 +7,7 @@ const Carrousel = () => {
                 <div className="flex flex-wrap -m-4">
                     <Card
                         imgPath={imgNavidad2020}
-                        title='Hábitos de Navidad'
+                        title='¿Cuidarme en Navidad?'
                         category='Nueva'
                         descr='Sea cual sea tu caso no te juzgues, no te critiques. Hoy estás vivo y es una oportunidad más para mejorarte en cualquier aspecto y área de tu vida.'
                         route='/navidad2020'
@@ -18,14 +18,15 @@ const Carrousel = () => {
     );
 }
 
-const Card = ({ imgPath, title, category, descr, route }) => <div className="p-4 md:w-1/3">
-    <div className="h-full border-2 border-gray-200 rounded-lg bg-cafe-ligth overflow-hidden">
-        <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={imgPath} alt="blog"
+const Card = ({ imgPath, title, category, descr, route }) => <div className="p-4 lg:w-1/3">
+    <div className="h-full border-2 shadow-lg border-gray-200 rounded-lg bg-cafe-ligth overflow-hidden">
+        <img className="lg:h-48 md:h-36 w-full object-cover object-center"
+            src={imgPath} alt="blog"
         />
         <div className="p-6">
-            {/* <h2 className="tracking-widest text-lg title-font font-bold text-verde-DEFAULT mb-1">
+            <h2 className="tracking-widest text-lg title-font font-bold text-amarillo-dark  mb-1">
                 {category}
-            </h2> */}
+            </h2>
             <h1 className="title-font text-4xl script-font font-medium mb-3">
                 {title}
             </h1>

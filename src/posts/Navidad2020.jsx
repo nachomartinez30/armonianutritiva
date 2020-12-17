@@ -6,7 +6,7 @@ import Firma from "../Firma.jsx";
 const Navidad2020 = () => {
 
     return (
-        <div className='h-full'>
+        <div className='h-full text-cafe-DEFAULT text-2xl text-justify'>
             <Divider />
             {/* Titulo */}
             <h1 className='slide-in-left text-center text-tinto-ligth text-7xl script-font font-bold pt-40 px-5'>
@@ -14,28 +14,32 @@ const Navidad2020 = () => {
             </h1>
 
             {/* Contenido */}
-            <div className='flex flex-wrap space-x-3 space-y-5 justify-center slide-in-right  pt-8 md:px-20 lg:px-56 sm:px-10'>
-                {/* Imagen */}
-                <div className='h-64 shadow-2xl'>
-                    <img className='h-full  fade-in' src={image} alt='hábitos' />
-                </div>
-
-                <div className='text-justify space-y-5'>
-                    <p>
-                        El año se está terminando, fueron tiempos difíciles,
-                        muchas vidas afectadas, crisis en todo aspecto y un sin fin
-                        de situaciones que se presentaron a cada uno de nosotros.
-                    </p>
-                    <p>
-                        Pero hoy seguimos vivos y hay que agradecer por ello,
-                        que hoy más que nunca se ve reflejado por esta pandemia que
-                        nos sacó de contexto a todos.
-                    </p>
+            <div className='flex flex-wrap space-x-5 space-y-8 justify-center slide-in-right  pt-8 md:px-20 xl:px-56 sm:px-10'>
+                <div className='space-y-5'>
+                    <div className='flex md:flex-wrap sm:flex-wrap lg:flex-no-wrap  md:justify-center lg:space-x-4'>
+                        {/* Imagen */}
+                        <div className='flex items-center'>
+                            <img className='shadow-2xl fade-in' src={image} alt='hábitos' />
+                        </div>
+                        {/*  */}
+                        <div className='space-y-4 sm:pt-12 md:pt-12'>
+                            <p>
+                                El año se está terminando, fueron tiempos difíciles,
+                                muchas vidas afectadas, crisis en todo aspecto y un sin fin
+                                de situaciones que se presentaron a cada uno de nosotros.
+                             </p>
+                            <p>
+                                Pero hoy seguimos vivos y hay que agradecer por ello,
+                                que hoy más que nunca se ve reflejado por esta pandemia que
+                                nos sacó de contexto a todos.
+                            </p>
+                        </div>
+                    </div>
                     <p>
                         Algunos aprovecharon la pandemia para formar una mejor rutina
                         en cuanto a hábitos se refiere, como comer más saludable, hacer
                         ejercicio en casa, cocinar sus alimentos etc.
-                    </p>
+                            </p>
                     <p>
                         Otros presentaron cambios en su rutina adquiriendo hábitos menos
                         beneficiosos como comer más procesado, ser más sedentarios, etc.
@@ -70,7 +74,7 @@ const Navidad2020 = () => {
                         ayudarte a darle un mejor sentido a las fechas en relación a tus hábitos
                     </p>
                 </div>
-                <div className='pl-16 text-justify space-y-3'>
+                <div className='md:pl-16 text-justify space-y-3'>
                     <div className=''
                         data-aos="fade-right"
                     >
@@ -185,28 +189,25 @@ const Navidad2020 = () => {
                         ° Come lento y disfruta cada bocado y alimento con todos tus sentidos
                     </div>
                 </div>
-                <div className='font-bold text-xl text-center text-tinto-DEFAULT'
+                {/*  */}
+                <div className='font-bold text-4xl text-center text-tinto-DEFAULT'
                     data-aos="fade-in"
                 >
                     <p>
                         Disfruta de la temporada y elimina esos pensamientos que pueden sabotear tu bienestar, es un tiempo de reflexión y visualizar que es lo que quieres conseguir en todo aspecto de vida.
                     </p>
                 </div>
-                <div className='text-center text-tinto-dark py-8'>
-                    Cuida a los tuyos y a ti mismo
-                    ¡Felices Fiestas!
+                {/*  */}
+                <div className='text-center text-tinto-dark py-8 text-3xl'>
+                    <p>
+                        Cuida a los tuyos y a ti mismo
+                    </p>
+                    <p>
+                        ¡Felices Fiestas!
+                    </p>
                 </div>
-                <div>
-                <Firma />
-                </div>
-
             </div>
-
-
-
-
-
-
+            <Firma />
         </div>
     );
 }
