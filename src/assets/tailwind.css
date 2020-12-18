@@ -11,8 +11,6 @@
 
 .services_shadows {
   border-radius: 25px;
-  /* background: #d9185f; */
-  /* box-shadow: -6px -6px 25px #9a1143, 12px 12px 25px #ff1f7b; */
   box-shadow: 6px 6px 10px #c714143b, -6px -6px 10px #be7979b2;
 }
 

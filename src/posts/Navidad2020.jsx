@@ -74,123 +74,124 @@ const Navidad2020 = () => {
                         ayudarte a darle un mejor sentido a las fechas en relación a tus hábitos
                     </p>
                 </div>
-                <div className='md:pl-16 text-justify space-y-3'>
+                {/* LISTADO */}
+                <div className='md:pl-16 text-justify font-bold space-y-3'>
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Evita etiquetar a los alimentos como buenos o malos. Las cantidades y constancia en el consumo de un alimento puede llevarnos a un resultado, pero no por su consumo repentino y moderado.
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span> Evita etiquetar a los alimentos como buenos o malos. Las cantidades y constancia en el consumo de un alimento puede llevarnos a un resultado, pero no por su consumo repentino y moderado.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° No te restringas a comer algún gusto por miedo a subir de peso o porque lo consideras “no sano”.
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span> No te restringas a comer algún gusto por miedo a subir de peso o porque lo consideras “no sano”.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° No le tengas miedo a la temporada por ser tiempo de fiestas.
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span> No le tengas miedo a la temporada por ser tiempo de fiestas.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Sigue con esos hábitos que te ayudan y contribuyen a tu bienestar.
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span> Sigue con esos hábitos que te ayudan y contribuyen a tu bienestar.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Realiza actividades que te agraden y disfrutes.
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span> Realiza actividades que te agraden y disfrutes.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° El ejercicio te hará a sentirte mejor y lo mejor ¡Quita el frio!
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span> El ejercicio te hará a sentirte mejor y lo mejor ¡Quita el frio!
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Agrega vegetales en diferentes preparaciones en tus comidas. ¡No te olvides de las frutas y verduras!
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span> Agrega vegetales en diferentes preparaciones en tus comidas. ¡No te olvides de las frutas y verduras!
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Hidrátate, en estos tiempos podemos sentir menos sed, pero tu cuerpo necesita agua para su funcionamiento, aunque sea diciembre.
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span> Hidrátate, en estos tiempos podemos sentir menos sed, pero tu cuerpo necesita agua para su funcionamiento, aunque sea diciembre.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Si comes algún alimento que consideras “no es tan saludable” no te critiques, disfrútalo y sigue con tu vida habitual.
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span> Si comes algún alimento que consideras “no es tan saludable” no te critiques, disfrútalo y sigue con tu vida habitual.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° No señales ni critiques la forma de comer de los demás.
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span> No señales ni critiques la forma de comer de los demás.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Evita pensamientos de restricción y exceso en cuanto a la comida y la bebida
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span> Evita pensamientos de restricción y exceso en cuanto a la comida y la bebida
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Evita críticas en la cena navideña de acuerdo a los cuerpos de los demás. La crítica solo es un reflejo de nosotros mismos en el otro.
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span> Evita críticas en la cena navideña de acuerdo a los cuerpos de los demás. La crítica solo es un reflejo de nosotros mismos en el otro.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Es común que algunos por tiempos de cierre de año, cenas de festividades y la temporada en si puedan presentar síntomas de depresión y/o ansiedad y se refleje en la manera de comer o en los hábitos. Si es tu caso reflexiona y pide ayuda profesional.
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span> Es común que algunos por tiempos de cierre de año, cenas de festividades y la temporada en si puedan presentar síntomas de depresión y/o ansiedad y se refleje en la manera de comer o en los hábitos. Si es tu caso reflexiona y pide ayuda profesional.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Realiza colaciones y no te malpases.
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span> Realiza colaciones y no te malpases.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° No te culpes por eso que hayas comido o bebido “de más”
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span> No te culpes por eso que hayas comido o bebido “de más”
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Escucha tu cuerpo y sus necesidades vitales y reales.
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span> Escucha tu cuerpo y sus necesidades vitales y reales.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° No te obsesiones con querer compensar restringiendo comida o realizando ejercicio de más.
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span> No te obsesiones con querer compensar restringiendo comida o realizando ejercicio de más.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Evita los ayunos y come a tus horas con el objetivo de comer en exceso en las fiestas. Solo te llevara a sentir ansiedad por comer disparando emociones.
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span> Evita los ayunos y come a tus horas con el objetivo de comer en exceso en las fiestas. Solo te llevara a sentir ansiedad por comer disparando emociones.
                     </div>
 
                     <div className=''
                         data-aos="fade-right"
                     >
-                        ° Come lento y disfruta cada bocado y alimento con todos tus sentidos
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span> Come lento y disfruta cada bocado y alimento con todos tus sentidos
                     </div>
                 </div>
                 {/*  */}
-                <div className='font-bold text-4xl text-center text-tinto-DEFAULT'
+                <div className='pt-12 font-bold text-4xl text-center text-tinto-DEFAULT'
                     data-aos="fade-in"
                 >
                     <p>

@@ -13,8 +13,6 @@ import venta from './assets/img/001-comida.svg'
 
 const Servicios = () => {
 
-    
-
     return (
         <div className='flex'
             data-aos="fade-right"
@@ -85,11 +83,42 @@ const Servicios = () => {
                             tittle={'Plan de Alimentación Personalizado'}
                             description='La cantidad y calidad de alimentos es diferente para cada uno de nosotros. Nuestros planes de alimentación son personalizados de acuerdo a los gustos, preferencias , cultura , edad, actividades, ejercicio etc . Todos los organismos son diferentes.'
                         />
+                        {/* nuevos */}
                         <Servicio
                             key='venta'
                             icon={venta}
                             tittle={'Venta de Productos Saludables'}
                             description='Tienda en nuestra clínica nutricional.'
+                        />
+                        <Servicio
+                            key='comosicion_corporal'
+                            // icon={venta}
+                            tittle={'Mejora de Composición Corporal'}
+                            description='Disminución grasa corporal y aumento de masa muscular con la alimentación de acuerdo a las necesidades de tu organismo'
+                        />
+                        <Servicio
+                            key='enfermedades_cronicas'
+                            // icon={venta}
+                            tittle={'Alimentación para Enfermedades Crónicas'}
+                            description='El llevar una alimentación equilibrada, de acuerdo a la patalogía, será importante para el tratamiento y mejora de las mismas.'
+                        />
+                        <Servicio
+                            key='nutricion_ejercicio'
+                            // icon={venta}
+                            tittle={'Nutrición y Ejercicio'}
+                            description='Una alimentación de acuerdo a la actividad física que se realice sera importante para el buen rendimiento y condición'
+                        />
+                        <Servicio
+                            key='embarazos'
+                            // icon={venta}
+                            tittle={'Embarazo y lactancia'}
+                            description='El aporte adecuado de nutrientes en la etapa de gestación es de total importancia para el desarrollo materno-infantil llevandolos a una nutrición optima'
+                        />
+                        <Servicio
+                            key='plimericas'
+                            // icon={venta}
+                            tittle={'Alimentacion en el adulto mayor'}
+                            description='Muchas veces en esta etapa de vida puede llevar al paciente a padecer alteraciones nutricionlales lo cual propensa a complicaciones como malnutrición.Una nutrición adecuada a sus condiciones sera primordial para una estabilidad orgánica'
                         />
                     </div>
                 </section>
