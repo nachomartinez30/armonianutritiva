@@ -6,8 +6,8 @@ module.exports = {
   purge: [],
   theme: {
     backgroundColor: theme => ({
-      'rosa': { DEFAULT: '#D9185F', light: '#DF5B8C', dark: '#730D32' },
-      'amarillo': { DEFAUL: '#FCC301', ligth: '#FDD44C', dark: '#7D6000' },
+      'rosa': { DEFAULT: '#D9185F', light: '#DF5B8C', dark: '#730D32', palo: '#926070' },
+      'amarillo': { DEFAULT: '#FCC301', ligth: '#FDD44C', dark: '#7D6000' },
       'verde': { DEFAULT: '#43BF0A', ligth: '#70CA47', dark: '#164003' },
       'tinto': { DEFAULT: '#8C0F3D', ligth: '#A61248', dark: '#590A27' },
       'cafe': { DEFAULT: '#8C7777', ligth: '#D9B8B8', dark: '#594C4C' },

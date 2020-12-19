@@ -9,7 +9,7 @@ const Navidad2020 = () => {
         <div className='h-full text-cafe-DEFAULT text-2xl text-justify'>
             <Divider />
             {/* Titulo */}
-            <h1 className='slide-in-left text-center text-tinto-ligth text-7xl script-font font-bold pt-40 px-5'>
+            <h1 className='slide-in-left text-center text-rosa-palo text-7xl script-font font-bold pt-40 px-5'>
                 Hábitos sanos en fiestas decembrinas
             </h1>
 
@@ -208,7 +208,11 @@ const Navidad2020 = () => {
                     </p>
                 </div>
             </div>
-            <Firma />
+            {/* FIRMA */}
+            <Firma
+                fecha='14 de diciembre del 2020'
+            />
+
         </div>
     );
 }
