@@ -9,6 +9,7 @@ import { Fragment, useEffect, useState } from "react";
 import Navidad2020 from "./posts/Navidad2020";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Testimonios from "./Testimonios";
 
 const App = () => {
   const [inicio, setInicio] = useState(false);
@@ -41,7 +42,7 @@ const Principal = () =>
     <QuienSoy />
     <Servicios />
     <Carrousel />
-    {/* <Testimonios /> */}
+    <Testimonios />
   </Fragment>
 
 export default App;
