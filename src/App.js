@@ -7,9 +7,11 @@ import Servicios from "./Servicios";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Fragment, useEffect, useState } from "react";
 import Navidad2020 from "./posts/Navidad2020";
+import AnioNuevo2020 from "./posts/AnioNuevo2020";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Testimonios from "./Testimonios";
+import Articulo from "./Articulo";
 
 const App = () => {
   const [inicio, setInicio] = useState(false);
@@ -25,6 +27,8 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Principal} />
           <Route exact path="/navidad2020" component={Navidad2020} />
+          <Route exact path="/anioNuevo2020" component={AnioNuevo2020} />
+          <Route exact path="/post/:id" component={Articulo} />
         </Switch>
       </Router>
       {/* multimedia publicaciones intsa, ebook, videos, blog */}

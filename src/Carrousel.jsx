@@ -1,4 +1,6 @@
 import imgNavidad2020 from './assets/posts/carousel/navidad2020.jfif'
+import anioNuevo2021 from './assets/posts/carousel/26177b8a-4748-463d-a990-8141cdd570e5.jfif'
+
 const Carrousel = () => {
     return (
 
@@ -8,9 +10,16 @@ const Carrousel = () => {
                     <Card
                         imgPath={imgNavidad2020}
                         title='¿Cuidarme en Navidad?'
-                        category='Nueva'
+                        category=''
                         descr='Sea cual sea tu caso no te juzgues, no te critiques. Hoy estás vivo y es una oportunidad más para mejorarte en cualquier aspecto y área de tu vida.'
                         route='/navidad2020'
+                    />
+                    <Card
+                        imgPath={anioNuevo2021}
+                        title='¿Y si cambias tu propósito este Año?'
+                        category='Nueva'
+                        descr='Otra vez Enero y ese sentimiento de querer cambiar tu cuerpo, modificar alguna parte de ti y todo esto con la emoción detrás de miedo, rechazo y odio hacia ti y tu organismo.'
+                        route='/anioNuevo2020'
                     />
                 </div>
             </div>
@@ -27,7 +36,7 @@ const Card = ({ imgPath, title, category, descr, route }) => <div className="p-4
             <h2 className="tracking-widest text-lg title-font font-bold text-amarillo-dark  mb-1">
                 {category}
             </h2>
-            <h1 className="title-font text-4xl script-font font-medium mb-3">
+            <h1 className="title-font text-center text-4xl script-font font-medium mb-3">
                 {title}
             </h1>
             <p className="leading-relaxed  mb-3">

@@ -10,7 +10,7 @@ const Navidad2020 = () => {
             <Divider />
             {/* Titulo */}
             <h1 className='slide-in-left text-center text-rosa-palo text-7xl script-font font-bold pt-40 px-5'>
-                Hábitos sanos en fiestas npm startdecembrinas
+                Hábitos sanos en fiestas decembrinas
             </h1>
 
             {/* Contenido */}
