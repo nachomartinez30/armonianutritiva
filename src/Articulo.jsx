@@ -1,5 +1,5 @@
 import ReactHtmlParser from 'react-html-parser';
-import moment from "moment"
+// import moment from "moment"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import axios from 'axios'
@@ -20,8 +20,8 @@ const Articulo = () => {
         try {
             const resp = await axios.get(`http://localhost:1337/articulos/${id}`)
             if (resp.status === 200) {
-                moment.locale('es-mx');
-                resp.data.published_at = moment(resp.data.published_at).format('LL')
+                // moment.locale('es-mx');
+                // resp.data.published_at = moment(resp.data.published_at).format('LL')
                 setData(resp.data);
                 setImagen(`http://localhost:1337${resp.data.foto_portada.url}`)
             } else {
