@@ -150,10 +150,7 @@ const Navidad2020 = () => {
                 {/*  */}
                 <div className='text-center text-tinto-dark py-8 text-3xl'>
                     <p>
-                        Reconcíliate con tu cuerpo, 
-                    </p>
-                    <p>
-                        >
+                        Reconcíliate con tu cuerpo, estarás con él toda la vida.
                     </p>
                 </div>
             </div>

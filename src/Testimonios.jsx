@@ -5,36 +5,30 @@ const Testimonios = () => {
                 <h1 className="text-8xl script-font font-bold text-rosa-DEFAULT mb-12 text-center">Testimonios</h1>
                 <div className="flex flex-wrap -m-4">
                     <Testimonio
-                        key='Mitzi'
                         name='Mitzi González'
                         testify={"100% Recomendada, la Dra Susan me ayudó a llevar el control de mi alimentación durante mi embarazo, mi bebe nacio sana y solo subí lo correspondiente al embarazo.\nActualmente llevo la alimentación post parto y estoy muy feliz con los resultados , he perdido grasa y aumentado musculo comiendo bien."}
                     />
                     <Testimonio
-                        key='Yessica'
                         name='Yessica Muñoz'
                         testify={"Susan ha sido más que simplemente una nutrióloga para mi.\nAl inicio, llegué a ella únicamente con el objetivo de perder peso. Luego de un par de consultas Susan me ayudó a descubrir el por qué realmente yo quería perder peso. Fui aprendiendo a comer de manera correcta y a descubrir  mi personalidad, los momentos y emociones que me llevaban a sentir necesidad de comer alimentos que hacían más difīcil cumplir con mi objetivo.\nMe siento muy contenta de los resultados que he obtenido hasta el momento. He perdido más de 10 kg y se que sin la ayuda de Susan no lo hubiera logrado!"}
                     />
 
                     <Testimonio
-                        key='Hugo'
                         name="Hugo Marcelo"
                         testify={"Mi experiencia en el proceso nutricional ha sido ha sido muy satisfactoria, ya que me estoy alimentando de mejor manera al balancear mis alimentos diarios, a tener colaciones y tomar mejors decisiones respecto a los alimentos.\nAdemás he aprendido a que el sueño y el ejercicio soy muy importantes para tener una buena calidad de vida.Susan ha sido clave en todo lo mencionado, pues su calidad humana es fuente de inspiración."}
                     />
 
                     <Testimonio
-                        key='Marisol'
                         name="Marisol Gonzalez"
                         testify={"Cansada de “cuidarme con la comida” y con unos kilos de más, decidí ir con una coach nutricional, porque evidentemente no estaba haciendo bien las cosas.\nFue cuando me puse en manos de Susan, quien me enseño a comer sano y no pasar hambre, actualmente estoy cumpliendo el plan de nutrición el cual me ayudo a bajar de peso y talla.\nEn un inicio hubo que ajustar malos hábitos y luego encaminada, fui aprendiendo de acuerdo a las necesidades de mi cuerpo. gracias a la confianza de Susan, esto se convirtió en mi nuevo estilo de vida: Comer sano, cuidarme, ¡¡¡estar saludable y feliz!!!"}
                     />
 
                     <Testimonio
-                        key='Diana'
                         name="Diana López"
                         testify={"Susan es una de las mejores nutriologas, se toma el tiempo para escucharte, entender tus necesidades, debilidades y emociones, sobre eso enfoca de una manera muy humana un seguimiento de hábitos y retos que te motivan a ser mejor, no sólo te da un plan de alimentación si no que también te da un motivo para cumplir tus metas.\nLa recomiendo muchísimo"}
                     />
 
                     <Testimonio
-                        key='"Jose'
                         name="José Luis Espinoza"
                         testify={"Fue una experiencia buenísima, en lo particular no había estado con una nutrióloga antes.\nComía de todo tipo de comidas y muy variado, el seguimiento era constante y muy bueno.La explicación de la alimentación me agradaba y del por qué de las cosas."}
                     />
