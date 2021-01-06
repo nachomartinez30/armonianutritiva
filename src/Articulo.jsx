@@ -1,74 +1,92 @@
-// import ReactHtmlParser from 'react-html-parser';
-// import moment from "moment"
-// import { useEffect, useState } from "react";
-// import { useParams } from "react-router";
-// import axios from 'axios'
-// import Divider from './Divider';
-// import Firma from './Firma';
+import { Fragment, useEffect, useState } from "react";
+import { useParams } from "react-router";
+import axios from 'axios'
+import Divider from './Divider';
+import Firma from './Firma';
+import { Link } from 'react-router-dom';
+import getFecha from './helpers/getFecha'
 
-// const Articulo = () => {
-//     let { id } = useParams();
-//     const [data, setData] = useState('')
-//     const [imagen, setImagen] = useState('')
-//     useEffect(() => {
+const Articulo = () => {
+    const API_URL = process.env.REACT_APP_API_URL;
+    let { id } = useParams();
+    const [reload, setReload] = useState(true)
+    const [data, setData] = useState('');
+    const [parrafos, setParrafos] = useState([])
+    const [fechaPublicacion, setFechaPublicacion] = useState('')
+    const [imagen, setImagen] = useState('')
+    const [imagenSecundaria, setImagenSecundaria] = useState('')
 
-//         /* axios para extraer el articulo */
-//         getPost()
-//     }, [''])
+    useEffect(() => {
+        /* axios para extraer el articulo */
+        getPost()
+        setReload(true)
+    }, [reload])
 
-//     const getPost = async () => {
-//         try {
-//             const resp = await axios.get(`http://localhost:1337/articulos/${id}`)
-//             if (resp.status === 200) {
-//                 moment.locale('es-mx');
-//                 resp.data.published_at = moment(resp.data.published_at).format('LL')
-//                 setData(resp.data);
-//                 setImagen(`http://localhost:1337${resp.data.foto_portada.url}`)
-//             } else {
-//                 console.error();
-//             }
-//         } catch (error) {
-//             console.error(error);
-//         }
-//     }
+    const getPost = async () => {
+        try {
+            const resp = await axios.get(`${API_URL}/articulos/${id}`)
+            if (resp.status === 200) {
+                const { data } = resp
 
-//     return (
-//         <div className='h-full text-cafe-DEFAULT text-2xl text-justify'>
-//             <Divider />
-//             <h1 className='slide-in-left text-center text-rosa-palo text-7xl script-font font-bold pt-40 px-5'>
-//                 {data.titulo}
-//             </h1>
-//             <div className='flex flex-wrap space-x-5 space-y-8 justify-center slide-in-right  pt-8 md:px-20 xl:px-56 px-10'>
-//                 <div className='space-y-5'>
-//                     <div className='flex flex-wrap md:flex-wrap sm:flex-wrap lg:flex-no-wrap  justify-center lg:space-x-4'>
-//                         <div className='flex items-center'>
-//                             <img className='shadow-2xl fade-in' src={imagen} alt={'chahcita'} />
-//                         </div>
+                setFechaPublicacion(getFecha(data.published_at))
+                // debugger
+                setData(data);
+                setParrafos(data.contenido.split("\n"))
+                setImagen(`${API_URL}${data.foto_portada.url}`)
+                setImagenSecundaria(`${API_URL}${data.foto_secundaria[0].url}`)
 
-//                         <div className='space-y-4 sm:pt-12 md:pt-12'>
-//                             <p>
-//                                 El año se está terminando, fueron tiempos difíciles,
-//                                 muchas vidas afectadas, crisis en todo aspecto y un sin fin
-//                                 de situaciones que se presentaron a cada uno de nosotros.
-//                              </p>
-//                             <p>
-//                                 Pero hoy seguimos vivos y hay que agradecer por ello,
-//                                 que hoy más que nunca se ve reflejado por esta pandemia que
-//                                 nos sacó de contexto a todos.
-//                             </p>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
+            } else {
+                console.error();
+            }
+        } catch (error) {
+            console.error(error);
+        }
+    }
 
-//             {
-//                 ReactHtmlParser(data.contenido)
-//             }
-//             <Firma
-//                 fecha={data.published_at}
-//             />
-//         </div>
-//     );
-// }
+    return (
+        <div className='h-full text-cafe-DEFAULT text-2xl space-y-10 text-justify'>
+            <Divider />
 
-// export default Articulo;
+            <div className='pt-20 lg:pl-56 pl-4 fade-in items-center flex'>
+                <Link to='/' className='text-verde-DEFAULT font-bold inline-flex'>
+                    <svg className='w-8' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+                    </svg>
+                    Inicio
+                </Link>
+            </div>
+            <h1 className='slide-in-left text-center text-rosa-palo text-7xl script-font font-bold  px-5'>
+                {data.titulo}
+            </h1>
+            {/* IMAGEN */}
+            <img className='shadow-xl fade-in 
+                                w-2/3 ml-auto mr-auto
+                                lg:float-left lg:w-4/12 lg:ml-56 lg:mr-5
+            '
+                src={imagen}
+                alt={`post_${id}`}
+            />
+            {/* Contenido */}
+            <div className='md:px-20 xl:px-56 px-10 space-y-12 pb-8'>
+                {parrafos.map((item, index) => {
+                    return (<Fragment>
+                        {
+                            imagenSecundaria && index === 8 && <img className='shadow-xl fade-in w-2/3 ml-auto mr-auto lg:float-right lg:w-4/12 lg:ml-10 lg:mr-5 lg:mb-16 ' src={imagenSecundaria} alt={`img_sec_post_${id}`} />
+                        }
+                        <p data-aos="fade-right">
+                            {item}
+                        </p>
+                    </Fragment>
+                    )
+                }
+                )
+                }
+            </div>
+            <Firma
+                fecha={fechaPublicacion}
+            />
+        </div>
+    );
+}
+
+export default Articulo;
