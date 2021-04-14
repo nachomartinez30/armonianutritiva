@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import imgNavidad2020 from './assets/posts/carousel/navidad2020.jfif'
 import anioNuevo2021 from './assets/posts/carousel/26177b8a-4748-463d-a990-8141cdd570e5.jfif'
 import Carousel from 'react-elastic-carousel'
