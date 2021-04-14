@@ -20,6 +20,7 @@ const Articulo = () => {
         /* axios para extraer el articulo */
         getPost()
         setReload(true)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [reload])
 
     const getPost = async () => {
