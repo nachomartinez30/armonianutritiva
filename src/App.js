@@ -12,6 +12,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Testimonios from "./Testimonios";
 import Articulo from "./Articulo";
+import Footer from "./Footer";
 
 const App = () => {
   const [inicio, setInicio] = useState(false);
@@ -34,8 +35,10 @@ const App = () => {
       {/* multimedia publicaciones intsa, ebook, videos, blog */}
 
       {/* ubicacion y contacto */}
-      
+
       {/* <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pongsakornred" title="pongsakornRed">pongsakornRed</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.flaticon.es/autores/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> */}
+      
+      <Footer />
     </div>
   );
 }
