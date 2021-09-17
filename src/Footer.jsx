@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <footer className="text-gray-600 body-font bg-cafe-ligth">
             <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                <a className="text-tinto-dark flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                    <img className='h-12 w-auto' src={logo} />
+                <a href='/' className="text-tinto-dark flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <img alt='logo' className='h-12 w-auto' src={logo} />
                     <span className="ml-3 text-xl">Armonia Nutritiva</span>
                 </a>
                 <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-pink-400 sm:py-2 sm:mt-0 mt-4 text-tinto-dark">© 2019 Armonia nutritiva —
