@@ -37,27 +37,25 @@ const Servicios = () => {
                             key='citas'
                             icon={citas}
                             tittle={'Cita Online y Presencial'}
-                            description='Empieza a mejorar la relación que tienes con tu cuerpo y con la comida . En cualquier lugar de México y America Latina . Servicio de citas On line Presencial Guadalajara, Jalisco México'
+                            description='Inicia tu proceso de transformación mejorando tus hábitos llevándote al bienestar mejorándola relación con tu cuerpo, la comida y contigo. Servicio On line en cualquier parte de México, América Latina y Europa. Servicio presencial en Guadalajara Jalisco. Para más informes escríbenos en este link vía WhatsApp'
                         />
                         <Servicio
                             key='asesoria'
                             icon={asesoria}
                             tittle={'Asesoría Nutricional'}
-                            description='La mejor manera de cambiar tus hábitos es con una asesoría y continúa educación en nutrición.'
+                            description='El llevar una educación nutricional es importante para adquirir hábitos y cambies tu estilo de vida acorde a tu situación personal, siempre estamos aprendiendo para poco a poco realizar ajustes en nuestra rutina diaria.'
                         />
                         <Servicio
                             key='coach'
                             icon={coach}
                             tittle={'Coach Nutricional'}
-                            description='Si dejas que nuestros coaches nutricionales te acompañen, conseguirás:
-                                Conocer qué alimentos debes tomar de forma fácil y natural. Comprender el vínculo entre tus kilos y las emociones Aprender a preparar tus propios menús fácilmente y disfrutarás haciéndolo. Mejorar la confianza en ti mismo/a y en tu cuerpo Aumentar tu vitalidad y te sentirás más en forma a medida que te acercas a tu peso ideal.'
+                            description='Alanzar tus metas es posible, cambiar tus hábitos es posible y para eso el tener un coach que te motive y te ayude a encontrar esos recursos para caminar hacia tu objetivo es uno de nuestros pilares en Armonía Nutritiva. No se trata solo de seguir una dieta, sino que encuentres tu verdadera motivación y lo que hace querer ir hacia ella. Más que una dieta es que en tu proceso adquieras hábitos para toda la vida.'
                         />
                         <Servicio
                             key='psiconutricion'
                             icon={psiconutricion}
                             tittle={'Psiconutrición'}
-                            description='Relación de la mente, creencias, emociones y la nutrición.
-                                        Aborda temas como miedo a subir de peso, autoestima, espíritu para llevar a ser una mejor versión de sí mismo, trastornos alimenticios, ansiedad por comer y patrones alimenticios.'
+                            description='El cómo comemos y como lo comemos tiene una historia llena de creencias y patrones que si no somos conscientes de ello, será parte de los bloqueos para el avance a tus metas. Todos tenemos una relación íntimamente ligada con la mente, emociones, creencias, pensamientos y que son un reflejo en nuestro proceso nutricional. Con este abordaje se trabajan miedos como subir de peso, autoestima, ansiedad por comer entre otros para así llegar a una mejor versión de ti mismo y tener una mejor relación con la comida y contigo.'
                         />
                         <Servicio
                             key='habitos'
@@ -76,7 +74,7 @@ const Servicios = () => {
                             key='floral'
                             icon={floral}
                             tittle={'Terapia Floral'}
-                            description='Las Terapias Florales te ayudan a armonizar tus emociones para equilibrarte física y emocionalmente.'
+                            description='Todos somos seres emocionales y cuándo estas sensaciones las vemos como negativas estamos en una lucha constante. Lleva tratamiento a través de esencias florales que ayudaran a armonizar tus emociones y equilibrando tus sensaciones a nivel cognitivo, físico y emocional.'
                         />
                         <Servicio
                             key='emocional'
@@ -95,7 +93,7 @@ const Servicios = () => {
                             key='venta'
                             icon={venta}
                             tittle={'Venta de Productos Saludables'}
-                            description='Tienda en nuestra clínica nutricional.'
+                            description='Ten a la mano del consultorio diversos productos naturales que puedes encontrar para tu consumo diario y que pueden beneficiarte.'
                         />
                         <Servicio
                             key='composicion_corporal'
@@ -113,7 +111,7 @@ const Servicios = () => {
                             key='nutricion_ejercicio'
                             icon={nutricion_ejercicio}
                             tittle={'Nutrición y Ejercicio'}
-                            description='Una alimentación de acuerdo a la actividad física que se realice sera importante para el buen rendimiento y condición'
+                            description='Llevar una alimentación de acuerdo al deporte y actividad física es importante para así evitar desequilibrios a nivel nutricional y físico, así como para el buen rendimiento y condición'
                         />
                         <Servicio
                             key='embarazos'
@@ -126,6 +124,12 @@ const Servicios = () => {
                             icon={plimericas}
                             tittle={'Alimentacion en el adulto mayor'}
                             description='Muchas veces en esta etapa de vida puede llevar al paciente a padecer alteraciones nutricionlales lo cual propensa a complicaciones como malnutrición.Una nutrición adecuada a sus condiciones sera primordial para una estabilidad orgánica'
+                        />
+                        <Servicio
+                            key='transtornos_coducta_alimentaria'
+                            icon={plimericas}
+                            tittle={'Trastornos de la Conducta Alimentaria'}
+                            description='Los trastornos alimenticios van en crecimiento cada día más y el llevar una asesoría nutricional en estos casos es primordial para una recuperación óptima modificando conductas y teniendo una alimentación más compasiva entendiendo el proceso.'
                         />
                     </div>
                 </section>
