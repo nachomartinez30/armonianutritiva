@@ -1,9 +1,8 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
-  purge: [],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     backgroundColor: theme => ({
       'rosa': { DEFAULT: '#D9185F', light: '#DF5B8C', dark: '#730D32', palo: '#926070' },
@@ -16,7 +15,7 @@ module.exports = {
       'base': '#F2EEEB',
     }),
     textColor: theme => ({
-      'rosa': { DEFAULT: '#D9185F', light: '#DF5B8C', dark: '#730D32' },
+      'rosa': { DEFAULT: '#D9185F', light: '#DF5B8C', dark: '#730D32', },
       'amarillo': { DEFAUL: '#FCC301', ligth: '#FDD44C', dark: '#7D6000' },
       'verde': { DEFAULT: '#43BF0A', ligth: '#70CA47', dark: '#164003' },
       'tinto': { DEFAULT: '#8C0F3D', ligth: '#A61248', dark: '#590A27' },
@@ -41,6 +40,5 @@ module.exports = {
       '8xl': '6rem',
     },
   },
-  variants: {},
   plugins: [],
 }

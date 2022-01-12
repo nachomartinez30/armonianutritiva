@@ -1,4 +1,5 @@
-import nutricionista from './assets/img/nutricionista.jpg';
+import Image from 'next/image';
+import nutricionista from '../assets/img//nutricionista.jpg';
 
 const QuienSoy = () => {
     return (
@@ -9,7 +10,7 @@ const QuienSoy = () => {
                     <div className="md:w-1/3 text-center md:pr-8 md:py-8">
                         {/* IMAGEN */}
                         <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200">
-                            <img className='rounded-full bg-gray-700' src={nutricionista} alt='Nutricionista' />
+                            <Image className='rounded-full bg-gray-700' src={nutricionista} alt='Nutricionista' />
                         </div>
 
                         <div className="flex flex-col items-center text-center justify-center">

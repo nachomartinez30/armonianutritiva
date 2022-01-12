@@ -5,6 +5,7 @@ import Divider from './Divider';
 import Firma from './Firma';
 import { Link } from 'react-router-dom';
 import getFecha from './helpers/getFecha'
+import Image from "next/image";
 
 const Articulo = () => {
     const API_URL = process.env.REACT_APP_API_URL;
@@ -20,7 +21,7 @@ const Articulo = () => {
         /* axios para extraer el articulo */
         getPost()
         setReload(true)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [reload])
 
     const getPost = async () => {
@@ -51,7 +52,7 @@ const Articulo = () => {
             <div className='pt-20 lg:pl-56 pl-4 fade-in items-center flex'>
                 <Link to='/' className='text-verde-DEFAULT font-bold inline-flex'>
                     <svg className='w-8' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+                        <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
                     </svg>
                     Inicio
                 </Link>
@@ -60,7 +61,7 @@ const Articulo = () => {
                 {data.titulo}
             </h1>
             {/* IMAGEN */}
-            <img className='shadow-xl fade-in 
+            <Image className='shadow-xl fade-in 
                                 w-2/3 ml-auto mr-auto
                                 lg:float-left lg:w-4/12 lg:ml-56 lg:mr-5
             '
@@ -70,9 +71,9 @@ const Articulo = () => {
             {/* Contenido */}
             <div className='md:px-20 xl:px-56 px-10 space-y-12 pb-8'>
                 {parrafos.map((item, index) => {
-                    return (<Fragment>
+                    return (<Fragment key={item}>
                         {
-                            imagenSecundaria && index === 8 && <img className='shadow-xl fade-in w-2/3 ml-auto mr-auto lg:float-right lg:w-4/12 lg:ml-10 lg:mr-5 lg:mb-16 ' src={imagenSecundaria} alt={`img_sec_post_${id}`} />
+                            imagenSecundaria && index === 8 && <Image className='shadow-xl fade-in w-2/3 ml-auto mr-auto lg:float-right lg:w-4/12 lg:ml-10 lg:mr-5 lg:mb-16 ' src={imagenSecundaria} alt={`img_sec_post_${id}`} />
                         }
                         <p data-aos="fade-right">
                             {item}

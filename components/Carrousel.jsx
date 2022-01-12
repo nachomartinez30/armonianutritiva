@@ -1,9 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import imgNavidad2020 from './assets/posts/carousel/navidad2020.jfif'
-import anioNuevo2021 from './assets/posts/carousel/26177b8a-4748-463d-a990-8141cdd570e5.jfif'
+// import imgNavidad2020 from './assets/posts/carousel/navidad2020.jfif'
+// import anioNuevo2021 from './assets/posts/carousel/26177b8a-4748-463d-a990-8141cdd570e5.jfif'
 import Carousel from 'react-elastic-carousel'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import Image from 'next/image'
 
 const Carrousel = () => {
     const [articulos, setArticulos] = useState([])
@@ -39,13 +40,13 @@ const Carrousel = () => {
     return (
         <section section className="text-rosa-dark body-font py-48">
             <Carousel itemsToShow={2} breakPoints={breakPoints}>
-                {articulos.map(art => <Card
+                {/* {articulos.map(art => <Card
                     title={art.titulo}
                     imgPath={`${process.env.REACT_APP_API_URL}${art.avatar_carousel.url}`}
                     category=''
                     descr={art.descripcion_carousel}
                     route={`/post/${art.id}`}
-                />)}
+                />)} */}
                 <Card
                     imgPath={imgNavidad2020}
                     title='¿Cuidarme en Navidad?'
@@ -69,7 +70,7 @@ const Carrousel = () => {
 const Card = ({ imgPath, title, category, descr, route }) =>
     <div className="p-4 h-full">
         <div className="h-full border-2 shadow-lg border-gray-200 rounded-lg bg-cafe-ligth overflow-hidden">
-            <img className="lg:h-48 md:h-56 w-full object-cover object-center"
+            <Image className="lg:h-48 md:h-56 w-full object-cover object-center"
                 src={imgPath} alt="blog"
             />
             <div className="p-6">

@@ -1,21 +1,20 @@
-import Servicio from "./Servicio";
+import { default as asesoria, default as venta } from '../assets/img//001-comida.svg';
+import plimericas from '../assets/img//002-las-personas-de-edad.svg';
+import coach from '../assets/img//002-manzana.svg';
+import psiconutricion from '../assets/img//003-autismo.svg';
+import nutricion_ejercicio from '../assets/img//003-deporte.svg';
+import habitos from '../assets/img//004-saltar-la-cuerda.svg';
+import antropometria from '../assets/img//005-cinta-metrica.svg';
+import composicion_corporal from '../assets/img//005-ejercicio.svg';
+import floral from '../assets/img//006-lotus-flower.svg';
+import embarazos from '../assets/img//006-maternidad.svg';
 // Iconos
-import citas from './assets/img/007-dieta.svg'
-import asesoria from './assets/img/001-comida.svg'
-import coach from './assets/img/002-manzana.svg'
-import psiconutricion from './assets/img/003-autismo.svg'
-import habitos from './assets/img/004-saltar-la-cuerda.svg'
-import antropometria from './assets/img/005-cinta-metrica.svg'
-import floral from './assets/img/006-lotus-flower.svg'
-import emocional from './assets/img/008-medios-de-comunicacion-social.svg'
-import plan from './assets/img/009-vitaminas.svg'
-import venta from './assets/img/001-comida.svg'
+import citas from '../assets/img//007-dieta.svg';
+import enfermedades_cronicas from '../assets/img//007-nutricion.svg';
+import emocional from '../assets/img//008-medios-de-comunicacion-social.svg';
+import plan from '../assets/img//009-vitaminas.svg';
+import Servicio from "./Servicio";
 
-import composicion_corporal from './assets/img/005-ejercicio.svg'
-import enfermedades_cronicas from './assets/img/007-nutricion.svg'
-import nutricion_ejercicio from './assets/img/003-deporte.svg'
-import embarazos from './assets/img/006-maternidad.svg'
-import plimericas from './assets/img/002-las-personas-de-edad.svg'
 
 
 const Servicios = () => {

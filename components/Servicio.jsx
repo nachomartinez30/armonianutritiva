@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Fragment, useState } from "react";
 const Servicio = ({ tittle, description, icon }) => {
 
@@ -24,7 +25,7 @@ const Servicio = ({ tittle, description, icon }) => {
                 {(!showDescription) &&
                     <Fragment><h2 className="text-3xl text-cafe-dark font-bold  script-font mt-4">{tittle}</h2>
                         <div className="w-16 h-16  items-center justify-center flex-col-reverse rounded-full mb-4 mx-5">
-                            <img alt='' src={icon} />
+                            <Image alt='' src={icon} />
                         </div>
                     </Fragment>
                 }
