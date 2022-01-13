@@ -127,7 +127,7 @@ const Servicios = () => {
                         />
                         <Servicio
                             key='transtornos_coducta_alimentaria'
-                            icon={plimericas}
+                            // icon={plimericas}
                             tittle={'Trastornos de la Conducta Alimentaria'}
                             description='Los trastornos alimenticios van en crecimiento cada día más y el llevar una asesoría nutricional en estos casos es primordial para una recuperación óptima modificando conductas y teniendo una alimentación más compasiva entendiendo el proceso.'
                         />

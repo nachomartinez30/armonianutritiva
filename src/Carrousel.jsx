@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import imgNavidad2020 from './assets/posts/carousel/navidad2020.jfif'
+import covid from './assets/posts/carousel/covid_2021.jpeg'
 import anioNuevo2021 from './assets/posts/carousel/26177b8a-4748-463d-a990-8141cdd570e5.jfif'
 import Carousel from 'react-elastic-carousel'
 import { useEffect, useState } from 'react'
@@ -47,6 +48,13 @@ const Carrousel = () => {
                     route={`/post/${art.id}`}
                 />)}
                 <Card
+                    imgPath={covid}
+                    title='¡Lo que el Covid me ha dejado!'
+                    category='¡Nuevo!'
+                    descr='El Covid llegó para quedarse, pero dentro de su llegada y catastróficos eventos podemos rescatar algo bueno, en mi particular caso he tenido tantos cambios a nivel interno que me hicieron parar y darle un giro de mentalidad a mi vida. Espero que veas eso bueno que el Covid te ha dejado.'
+                    route='/covid'
+                />
+                <Card
                     imgPath={imgNavidad2020}
                     title='¿Cuidarme en Navidad?'
                     category=''
@@ -56,7 +64,7 @@ const Carrousel = () => {
                 <Card
                     imgPath={anioNuevo2021}
                     title='¿Y si cambias tu propósito este Año?'
-                    category='Nueva'
+                    category=''
                     descr='Otra vez Enero y ese sentimiento de querer cambiar tu cuerpo, modificar alguna parte de ti y todo esto con la emoción detrás de miedo, rechazo y odio hacia ti y tu organismo.'
                     route='/anioNuevo2020'
                 />
