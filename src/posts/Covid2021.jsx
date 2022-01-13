@@ -1,5 +1,4 @@
 import Divider from "../Divider";
-import image from '../assets/posts/anioNuevo/e74b30c2-007e-4dc0-b0ff-6991ebd9e114.jfif'
 import Firma from "../Firma.jsx";
 
 
