@@ -69,48 +69,48 @@ const Navidad2020 = () => {
                     </div>
                     {/* LISTADO */}
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span>
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL pr-2'>*</span>
                         Agradece en tus comidas por el alimento que consumirás
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span>
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT pr-2'>*</span>
                         Respira profundo antes de comer
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span>
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT pr-2'>*</span>
                         Huele y describe como lo presencias
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span>
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL pr-2'>*</span>
                         Detecta el sabor de tu comida
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT pr-10'>*</span>
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT pr-2'>*</span>
                         Siente texturas de tus alimentos
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span>
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT pr-2'>*</span>
                         Come sin distracciones
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span>
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL pr-2'>*</span>
                         Acomoda tu mesa como si tuvieras un invitado especial
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span>
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT pr-2'>*</span>
                         Date tu tiempo para comer sin prisas
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT'>*</span>
+                        <span className='text-4xl font-bold align-middle text-verde-DEFAULT pr-2'>*</span>
                         Come lento y mastica más tranquilamente
 
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL'>*</span>
+                        <span className='text-4xl font-bold align-middle text-amarillo-DEFAUL pr-2'>*</span>
                         Ve a la naturaleza y conecta con ella, hazte consiente de su grandeza
                     </div>
                     <div className='' data-aos="fade-right">
-                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT'>*</span>
+                        <span className='text-4xl font-bold align-middle text-rosa-DEFAULT pr-2'>*</span>
                         Y vuelve agradecer por tener un día más de vida, por ese aire que tienes y que no te cuesta
                     </div>
                     {/* LISTADO */}
